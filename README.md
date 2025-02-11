@@ -1,11 +1,5 @@
 # Rock-paper-game
 
-Here is a draft for your README file:
-
----
-
-# Rock-paper-game
-
 ## Description
 This is a web-based implementation of the classic Rock-Paper-Scissors game. It allows users to play the game against the computer, with a simple and intuitive interface.
 
