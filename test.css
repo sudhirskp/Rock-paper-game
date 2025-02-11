@@ -1,0 +1,26 @@
+h1.h-level-2.text-align--center.mt4.mb4 {
+    accent-color: auto;
+    align-content: normal;
+    align-items: normal;
+    align-self: auto;
+    /* ... (Many other properties) ... */
+    color: rgb(255, 255, 255); /* White text color */
+    display: block;
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 24px;
+    font-weight: 700; /* Bold font weight */
+    height: 24px;
+    line-height: 24px;
+    margin-block-end: 20px; /* Margin bottom: 20px */
+    margin-block-start: 20px; /* Margin top: 20px */
+    text-align: center;
+    text-shadow: rgb(247, 28, 75) 0px 0px 892.419px, 
+                rgb(247, 28, 75) 0px 0px 509.954px,
+                rgb(247, 28, 75) 0px 0px 297.473px,
+                rgb(247, 28, 75) 0px 0px 148.736px,
+                rgb(247, 28, 75) 0px 0px 42.4961px,
+                rgb(247, 28, 75) 0px 0px 21.2481px; /* Pinkish-red glow effect */
+    text-transform: uppercase;
+    width: 504px;
+    /* ... (Many other properties) ... */
+  }

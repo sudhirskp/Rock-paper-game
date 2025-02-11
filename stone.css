@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #1A1A1D;
+   
+}
+
+h1{
+    text-align: center;
+    background-color: #1A1A1D;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+    text-shadow: rgb(247, 28, 75) 0px 0px 892.419px, 
+                rgb(247, 28, 75) 0px 0px 509.954px,
+                rgb(247, 28, 75) 0px 0px 297.473px,
+                rgb(247, 28, 75) 0px 0px 148.736px,
+                rgb(247, 28, 75) 0px 0px 42.4961px,
+                rgb(247, 28, 75) 0px 0px 21.2481px;
+}
+
+.img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50px;
+}
+
+img{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    
+}
+.choice{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50Px;
+    gap : 20px;
+    
+}
+
+
+
+
+#paper:hover{
+
+    background-color: rgb(135, 206,235);
+    border-radius: 100px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+
+    box-shadow: rgb(135, 206,235) 0px 0px  100px ,
+    rgb(135, 206,235) 0px 0px  40px ,
+    rgb(135, 206,235) 0px 0px  40px ,
+    rgb(135, 206,235) 0px 0px  40px ;
+               
+
+
+}
+#rock:hover{
+
+    background-color: lightpink;
+    border-radius: 100px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    box-shadow: 
+    rgb(255, 192, 203) 0px 0px 100px,
+    rgb(255, 192, 203) 0px 0px 40px,
+    rgb(255, 192, 203) 0px 0px 40px,
+    rgb(255, 192, 203) 0px 0px 40px;
+
+
+}
+#scissors:hover{
+
+    background-color: yellow;
+    border-radius: 100px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    box-shadow: 
+    rgb(255, 255, 0) 0px 0px 100px,
+    rgb(255, 255, 0) 0px 0px 40px,
+    rgb(255, 255, 0) 0px 0px 40px,
+    rgb(255, 255, 0) 0px 0px 40px;
+
+
+}
+
+
+.result{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 50px;
+    font-size: 40px;
+    color: aqua;
+    text-decoration-color: black;
+    text-shadow: blue;
+}
+#msg{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 15px;
+    color: red;
+}
